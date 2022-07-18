@@ -12,7 +12,7 @@ DigiSpark ATTiny85 Rubber Ducky Collection,
 • The included payload is benign, however the GitHub Dropper file is a great example of using a classic Task Manager UAC Bypass to gain Admin privileges in powershell, after privilege escalation to powershell, the script will fetch the payload from GitHub "hence the name GitHub Dropper" - the speedy.ps1 powershell script will kill task manager and continue to the previous shell instance where the PSReadLine history will be erased and then exit.
 
 ( PSReadLine History is erased to remove the history of commands entered in powershell. )
-Alternatively, you can disable the module leaving only small trace's in the PSReadLine History with `Remove-Module psreadline` and "Import-Module psreadline` along with cls command, Clear-History command and ALT+F7 to clear instance history.
+Alternatively, you can disable the module leaving only small trace's in the PSReadLine History with `Remove-Module psreadline` and `Import-Module psreadline` along with cls command, Clear-History command and ALT+F7 to clear instance history.
   
   
 
