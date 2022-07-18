@@ -11,10 +11,10 @@
 - More keys can be added, for reference I'm adding chapter 10 of the USB HID Usage Tables, for easy addition of keys you need.
    
 
-Installation is straight forward,   
-• Open File Explorer ( My PC, PC ).    
-• Navigate to '$userdata%\AppData\Local\Arduino15\packages\digistump\hardware\avr\1.6.7\libraries\DigisparkKeyboard`       
-• Paste the Custom Keyboard File into position, replacing the stock one.
+#### Installation is straight forward,     
+- Open File Explorer ( My PC, PC ).    
+- Navigate to '%userdata%\AppData\Local\Arduino15\packages\digistump\hardware\avr\1.6.7\libraries\DigisparkKeyboard`       
+- Paste the Custom Keyboard File into position, replacing the stock one.
   
   
  
