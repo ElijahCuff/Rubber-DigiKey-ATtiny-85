@@ -1,3 +1,4 @@
 taskkill /IM taskmgr.exe
 cls
-echo "test completed"
+echo "PWNED"
+sleep 1
