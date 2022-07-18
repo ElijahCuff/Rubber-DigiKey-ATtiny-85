@@ -1,2 +1,2 @@
-sleep 20000 
+sleep 10
 exit
