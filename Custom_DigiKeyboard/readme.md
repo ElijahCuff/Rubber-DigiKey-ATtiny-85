@@ -3,7 +3,8 @@
    
 ### What's Different ?    
 • DigiKeyboard is declared as Keyboard for quicker scripting.    
-• Tab, Delete, Arrow Keys Added.      
+• Tab, Delete, Arrow Keys Added.    
+• MOD_CONTROL is now MOD_CTRL
    
 ### Notes,    
 - The DigiSpark has minimal memory, and therefore the best way to fit a payload is by retrieving it from the internet during the attack, this requires the victim pc to have internet access for powershell.    
