@@ -1,5 +1,5 @@
 ## Customized DigiKeyboard.h 
-#### > To be placed under `%userdata%\AppData\Local\Arduino15\packages\digistump\hardware\avr\1.6.7\libraries\DigisparkKeyboard`
+##### To be placed under `%userdata%\AppData\Local\Arduino15\packages\digistump\hardware\avr\1.6.7\libraries\DigisparkKeyboard`
    
 ### What's Different ?    
 • DigiKeyboard is declared as Keyboard for quicker scripting.    
