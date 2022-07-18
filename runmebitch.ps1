@@ -1,4 +1,4 @@
 taskkill /IM taskmgr.exe
 cls
 echo "test completed"
-sleep 3
+sleep 2
