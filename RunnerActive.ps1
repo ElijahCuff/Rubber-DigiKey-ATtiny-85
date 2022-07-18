@@ -1,4 +1,4 @@
 echo "test completed"
 taskkill /IM taskmgr.exe
-sleep 10
-pause
+sleep 1
+exit
