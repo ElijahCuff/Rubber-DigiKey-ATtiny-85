@@ -11,6 +11,13 @@
 - This implementation shows a classic Task Manager UAC Bypass to gain administrator privileges in powershell.    
 - More keys can be added, for reference I'm adding chapter 10 of the USB HID Usage Tables, for easy addition of keys you need.
    
+### Adding Keys,   
+> Simply define a new key name and value in hex or decimal value,      
+- Open in something like NotePad++ for Unix line ending Support ( \n ).       
+- Then add a key definition to the file, example - `#define KEY_NAME_ME       23`        
+>  Here 23 is used, this is the decimal value for the Letter "T" according to the HID Usage Tables ( USB Keyboard Specs ) this could also be written as the hex value, `#define KEY_T       0x17`
+  
+
 
 #### Installation is straight forward,     
 - Open File Explorer ( My PC, PC ).    
