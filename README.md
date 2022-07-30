@@ -2,7 +2,7 @@
 DigiSpark ATTiny85 Rubber Ducky Collection,
 
 • Modified "DigiKeyboard.h" for more key support and easier writing.   
-( Arrows, Del, Esc, Added and DigiKeyboard - namespace changed to Keyboard to be more familliar with Arduino users )
+( Arrows, Del, Esc, Added and DigiKeyboard namespace changed to Keyboard improving familiarity with Arduino users )
 
 • Example GitHub Payload & Script for Delivery.
    
