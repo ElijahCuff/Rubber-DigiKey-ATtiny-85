@@ -1,5 +1,5 @@
 taskkill /IM taskmgr.exe
 cls
 echo "PWNED"
-sleep 1
-powershell -command \"echo pwned\"
+start https://www.youtube.com/watch?v=dQw4w9WgXcQ
+exit
