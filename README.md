@@ -23,10 +23,7 @@ Alternatively, you can disable the module leaving only small trace's in the PSRe
 
 #### PSReadLine Removal Command Used ( Cleanup Traces ).   
 `Remove-Item -Path \"$env:userprofile\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadline\ConsoleHost_history.txt\"`      
-> I would also suggest adding some more cleanup to the temporary script execution directory, as you can see editing the GitHub powershell script will not be reflected, meaning the PC is storing the fetched script and reusing it because the URL has not changed yet - the victim machine is still storing the fetched payload after execution.      
-`Clear-History`.    
-`cls`.   
-Alt+F7 to clear powershell PSReadLine instance history.
+> I would also suggest adding some more cleanup to the temporary script execution directory.    
 
     
 
