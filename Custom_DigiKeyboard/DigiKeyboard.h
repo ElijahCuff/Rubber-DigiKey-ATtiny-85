@@ -113,6 +113,7 @@ const PROGMEM char usbHidReportDescriptor[USB_CFG_HID_REPORT_DESCRIPTOR_LENGTH] 
 #define KEY_TAB   43
 #define KEY_DEL   0x4C
 #define KEY_SPACE   44
+#define KEY_ESC   0x29
 
 #define KEY_F1      58
 #define KEY_F2      59
