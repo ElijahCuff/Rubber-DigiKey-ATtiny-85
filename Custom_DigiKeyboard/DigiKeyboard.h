@@ -1,8 +1,5 @@
 /*
- * Based on Obdev's AVRUSB code and under the same license.
- *
- * TODO: Make a proper file header. :-)
- * Modified for Digispark by Digistump
+ * Modified for Digispark by DigiStump and extended by the community.
  */
 #ifndef __Keyboard_h__
 #define __Keyboard_h__
