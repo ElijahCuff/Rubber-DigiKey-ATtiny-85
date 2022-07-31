@@ -63,6 +63,14 @@ const PROGMEM char usbHidReportDescriptor[USB_CFG_HID_REPORT_DESCRIPTOR_LENGTH] 
 /* Keyboard usage values, see usb.org's HID-usage-tables document, chapter
  * 10 Keyboard/Keypad Page for more codes.
  */
+#define MOD_CTRL_LEFT    (1<<0)
+#define MOD_SHIFT_LEFT      (1<<1)
+#define MOD_ALT_LEFT        (1<<2)
+#define MOD_GUI_LEFT        (1<<3)
+#define MOD_CTRL_RIGHT   (1<<4)
+#define MOD_SHIFT_RIGHT     (1<<5)
+#define MOD_ALT_RIGHT       (1<<6)
+#define MOD_GUI_RIGHT       (1<<7)
 
 #define KEY_MOD_LCTRL  0x01
 #define KEY_MOD_LSHIFT 0x02
