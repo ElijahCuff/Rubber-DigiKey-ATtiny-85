@@ -12,7 +12,7 @@ $speak = New-Object System.Speech.Synthesis.SpeechSynthesizer
 
 
 # Speak Some Crap 
-$speak.Speak("Payload Has Been Delivered Master.");
+$speak.Speak("Pay Load Has Been Delivered Master.");
 
 # Remove new File ( ToDo )
 del $file;
