@@ -12,4 +12,6 @@
 - Run Firmware Update Command    
 ```
 micronucleus.exe --run jumper.hex 
-```   
+```     
+   
+• Now when you Upload in Arduino IDE, make sure you connect a jumper wire to ground and then pin 0, pin 0 is now the programmer pin.
