@@ -3,7 +3,19 @@ DigiSpark ATTiny85 Rubber Ducky Collection,
 ![Screenshot](IMG_20220917_171442-01.jpeg)
 
 • Modified "DigiKeyboard.h" for more key support and easier writing.   
-( Arrows, Del, Esc, Added and DigiKeyboard namespace changed to Keyboard improving familiarity with Arduino users )
+( Arrows, Del, Esc, Added and DigiKeyboard namespace changed to Keyboard improving familiarity with Arduino users )   
+Example, 
+```
+#include <DigiKeyboard.h>     
+void loop(){
+// OLD WAY
+DigiKeyboard.keyPress();
+
+// NEW WAY
+Keyboard.keyPress();
+
+}
+```
 
 • Example GitHub Payload & Script for Delivery.
    
