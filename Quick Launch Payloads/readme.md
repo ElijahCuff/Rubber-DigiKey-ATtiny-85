@@ -6,7 +6,8 @@
     
 ### Installation,
    
-- Open Microneucleus directory in Arduino  
+- Open Microneucleus directory in Arduino    
+- Copy Jumper.hex file to micronucleus root folder
 - Start a Command Window   
 - Run Firmware Update Command    
 ```
