@@ -7,6 +7,8 @@ DigiSpark ATTiny85 Rubber Ducky Collection,
    
 • Modified Bootloader with Jumper Pin for Programming    
 > You can install a modified bootloader which will not wait 5 seconds before executing the users code - the digispark waits 5 seconds for the computer to send an update to the program, if the program isn't updated in 5 seconds then it proceeds with the user scripts.   
+- Added as Quick Launch Payloads   
+  
 
 Example, 
 ```
