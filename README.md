@@ -3,7 +3,11 @@ DigiSpark ATTiny85 Rubber Ducky Collection,
 ![Screenshot](IMG_20220917_171442-01.jpeg)
 
 • Modified "DigiKeyboard.h" for more key support and easier writing.   
-( Arrows, Del, Esc, Added and DigiKeyboard namespace changed to Keyboard improving familiarity with Arduino users )   
+(changed to Keyboard instead of DigiKeyboard namespace for experienced users with Arduino )     
+   
+• Modified Bootloader with Jumper Pin for Programming    
+> You can install a modified bootloader which will not wait 5 seconds before executing the users code - the digispark waits 5 seconds for the computer to send an update to the program, if the program isn't updated in 5 seconds then it proceeds with the user scripts.   
+
 Example, 
 ```
 #include <DigiKeyboard.h>     
