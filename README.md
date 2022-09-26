@@ -8,7 +8,7 @@ DigiSpark ATTiny85 Rubber Ducky Collection,
 • Example GitHub Payload & Script for Delivery.
    
   
-![Screenshot](IMG_20220917_171557-01.jpeg) 
+![Screenshot](https://github.com/ElijahCuff/HW-018/blob/main/Screenshot_20220926_141531.jpg) 
 #### Notes.     
    
         
